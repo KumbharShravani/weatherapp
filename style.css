@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgba(128, 128, 128, 0.378);
+    color:white;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding-block: 20px;
+}
+.weather-info
+
+{
+    margin: auto;
+    width:400px;
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    
+}
+.weather-info button,
+ .weather-info input {
+    padding: 10px 30px;
+    border:none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition:2s;
+}
+
+.weather-info button{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+.weather-info button:hover{
+    background-color: blueviolet;
+}
